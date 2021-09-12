@@ -1,8 +1,8 @@
 """
-Ques . Merge sort
+Ques. Merge sort
 T.C. = O(n log n)
 S.C. = O(n) => Space used by list
-Link = https://practice.geeksforgeeks.org/problems/merge-sort/1 
+Link - https://practice.geeksforgeeks.org/problems/merge-sort/1 
 """
 class Solution:
     def merge(self,arr, l, m, r): 
