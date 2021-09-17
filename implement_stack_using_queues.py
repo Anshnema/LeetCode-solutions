@@ -3,7 +3,7 @@ Ques. Implement Stack Using queues
 T.C. = Push - O(n); Pop - O(1); Top - O(1); empty - O(1)
 S.C. = O(n) 
 1 Queue is used here.
-https://leetcode.com/problems/implement-stack-using-queues/
+Link - https://leetcode.com/problems/implement-stack-using-queues/
 """
 class MyStack:
     def __init__(self):
