@@ -1,7 +1,7 @@
 """
 Ques. Longest substring without repeating characters
-T.C. - O(n)
-S.C. - O(n)
+T.C. = O(n)
+S.C. = O(n)
 Link - https://leetcode.com/problems/longest-substring-without-repeating-characters/
 """
 def lengthOfLongestSubstring(self, s: str) -> int:
