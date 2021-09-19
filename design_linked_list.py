@@ -15,7 +15,6 @@ class MyLinkedList:
         """
         Initialize your data structure here.
         """
-        self.size = 0
         self.head = None 
 
     def get(self, index: int) -> int:
