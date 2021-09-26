@@ -7,6 +7,7 @@ Approach. Reversing the Linked list from the mid position and match the elements
 
 T.C. = O(n)
 S.C = O(1)
+Link - https://leetcode.com/problems/palindrome-linked-list/
 """
 class Solution:
     def isPalindrome(self, head):
