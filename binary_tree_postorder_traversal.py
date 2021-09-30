@@ -16,8 +16,10 @@ class Solution:
         while len(stack) > 0:
             cur = stack.pop()
             res.append(cur.val)
+            
             if(cur.left != None):
                 stack.append(cur.left)
+            
             if(cur.right != None):
                 stack.append(cur.right)
             
