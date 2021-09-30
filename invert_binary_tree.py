@@ -12,12 +12,12 @@ class Solution:
         stack = [root]
         cur = root 
         
-        while stack:
+        while len(stack) > 0:
             cur = stack.pop()
             cur.left, cur.right = cur.right, cur.left
-            if(cur.left):
+            if(cur.left != None):
                 stack.append(cur.left)
-            if(cur.right):
+            if(cur.right != None):
                 stack.append(cur.right)
                 
         return root 
