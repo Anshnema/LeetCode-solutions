@@ -10,7 +10,7 @@ class Solution:
         stack = list()
         cur = root 
         
-        while cur or stack:
+        while cur != None or len(stack) > 0:
             while(cur != None):
                 stack.append(cur)
                 cur = cur.left
