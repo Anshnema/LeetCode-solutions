@@ -10,19 +10,19 @@ class ListNode:
         self.next = next
 
 class Solution:
-    def addTwoNumbers(self, l1):
+    def addTwoNumbers(self, l1, l2):
         head = ListNode(0) 
         cur = head 
         carry = 0
         
-        while l1 or l2 or carry:
+        while l1 != None or l2 != None or carry != 0:
             digit = carry 
             
-            if(l1):
+            if(l1 != None):
                 digit += l1.val 
                 l1 = l1.next 
             
-            if(l2):
+            if(l2 != None):
                 digit += l2.val
                 l2 = l2.next
             
