@@ -1,8 +1,8 @@
 """
 Ques. Peak index in mountain array 
-T.C = O(log n) 
-S.C = O(1)
-link - https://leetcode.com/problems/peak-index-in-a-mountain-array/
+T.C. = O(log n) 
+S.C. = O(1)
+Link - https://leetcode.com/problems/peak-index-in-a-mountain-array/
 """
 def peakIndexInMountainArray(self, arr):
         left = 0
