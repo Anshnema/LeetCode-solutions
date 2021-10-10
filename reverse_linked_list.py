@@ -1,5 +1,5 @@
 """
-Ques 1. Reverse Linked list 
+Ques. Reverse Linked list 
 T.C. = O(n)
 S.C. = O(1)
 Link - https://leetcode.com/problems/reverse-linked-list/
