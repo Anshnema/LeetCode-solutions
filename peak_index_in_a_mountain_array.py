@@ -1,5 +1,5 @@
 """
-Ques 2. Peak index in mountain array 
+Ques. Peak index in mountain array 
 T.C = O(log n) 
 S.C = O(1)
 link - https://leetcode.com/problems/peak-index-in-a-mountain-array/
