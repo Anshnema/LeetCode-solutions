@@ -1,10 +1,10 @@
 """
 Ques. Group Anagrams 
-Link - https://leetcode.com/problems/group-anagrams/
-
-=> n = size of strs; k = max length of a string
 T.C. = O(nk) => Length of each string in n is counted 
 S.C. = O(nk) => Information for each n and k is stored in the dictionary
+
+# n = size of strs; k = max length of a string
+Link - https://leetcode.com/problems/group-anagrams/
 """
 def groupAnagrams(self, strs):
     soln = dict()
