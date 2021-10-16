@@ -1,6 +1,6 @@
 """
 Ques. Search in a Binary search Tree 
-T.C. = O(log n) 
+T.C. = O(n) 
 S.C. = O(1)
 Link - https://leetcode.com/problems/search-in-a-binary-search-tree/
 """
